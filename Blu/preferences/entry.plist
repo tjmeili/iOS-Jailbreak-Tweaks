@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = Blu;
+		cell = PSLinkCell;
+		detail = BluListController;
+		icon = Blu.png;
+		isController = 1;
+		label = "Blu";
+	};
+}

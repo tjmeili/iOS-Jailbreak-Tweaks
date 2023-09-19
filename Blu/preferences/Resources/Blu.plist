@@ -1,0 +1,56 @@
+title = "Blu";
+items = (
+	{
+		cell = PSGroupCell;
+	},
+	{
+		cell = PSSwitchCell;
+		PostNotification = com.traw.blu-prefschanged;
+		default = 1;
+		defaults = "com.traw.blu";
+		key = enabled;
+		label = "ENABLED";
+	},
+	{
+		cell = PSGroupCell;
+		label = "TEMPERATURE";
+	},
+	{
+		cell = PSSliderCell;
+		PostNotification = com.traw.blu-prefschanged;
+		default = 0.5;
+		defaults = "com.traw.blu";
+		key = temperature;
+		max = 1;
+		min = 0;
+		leftImage = Brightness.png;
+	},
+	{
+		cell = PSGroupCell;
+		label = "INTENSITY";
+	},
+	{
+		cell = PSSliderCell;
+		PostNotification = com.traw.blu-prefschanged;
+		default = 0.5;
+		defaults = "com.traw.blu";
+		key = intensity;
+		max = 1;
+		min = 0;
+		leftImage = Brightness.png;
+	},
+	{
+		cell = PSGroupCell;
+		label = "BRIGHTNESS";
+	},
+	{
+		cell = PSSliderCell;
+		PostNotification = com.traw.blu-prefschanged;
+		default = 0.5;
+		defaults = "com.traw.blu";
+		key = brightness;
+		max = 1;
+		min = 0;
+		leftImage = Brightness.png;
+	}
+);

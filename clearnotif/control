@@ -1,0 +1,9 @@
+Package: com.traw.clearnotif
+Name: ClearNotif
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: TJ
+Author: TJ
+Section: Tweaks

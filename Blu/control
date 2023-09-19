@@ -1,0 +1,9 @@
+Package: com.traw.blu
+Name: Blu
+Depends: mobilesubstrate, preferenceloader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mobile User
+Author: Mobile User
+Section: Tweaks
